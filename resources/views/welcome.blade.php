@@ -12,24 +12,12 @@
 
         {{-- left circle --}}
 
-        <div class=" absolute top-0 left-0">
-            <div class=" absolute bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
-            <div
-                class=" absolute  ml-10 mt-10 bg-gradient-to-br from-green-100   to-green-200 w-64 h-64 rounded-full opacity-50">
-            </div>
-            <div
-                class=" absolute ml-24 bg-gradient-to-br from-indigo-100 to-indigo-200 w-64 h-64 rounded-full opacity-50">
-            </div>
+        <div class=" absolute top-0 left-0 transform translate-x-4 translate-y-4">
+           <x-circles />
         </div>
         {{-- right ciycl --}}
-        <div class=" absolute top-0 right-0 transform -translate-x-64 translate-y-64">
-            <div class=" absolute bg-gradient-to-br from-red-100 to-red-200 w-64 h-64 rounded-full opacity-50"></div>
-            <div
-                class=" absolute  ml-10 mt-10 bg-gradient-to-br from-green-100   to-green-200 w-64 h-64 rounded-full opacity-50">
-            </div>
-            <div
-                class=" absolute ml-24 bg-gradient-to-br from-indigo-100 to-indigo-200 w-64 h-64 rounded-full opacity-50">
-            </div>
+        <div class="hidden lg:block absolute top-0 right-0 transform -translate-x-64 translate-y-64">
+          <x-circles />
         </div>
         <!-- ============================-->
         <!-- Header ============================-->
@@ -39,6 +27,10 @@
         <!-- Hero section ============================-->
         <!-- ============================-->
         <x-hero />
+         <!-- ============================-->
+        <!-- overview section ============================-->
+        <!-- ============================-->
+        <x-overview />
 
     </div>
 
