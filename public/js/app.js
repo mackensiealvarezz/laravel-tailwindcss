@@ -19384,8 +19384,8 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/maalvare/Documents/workspace/tailwind/tailwindtest/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/maalvare/Documents/workspace/tailwind/tailwindtest/resources/css/app.css */"./resources/css/app.css");
+__webpack_require__(/*! /Users/mackensiealvarez/Documents/workspace/laravel-tailwindcss/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/mackensiealvarez/Documents/workspace/laravel-tailwindcss/resources/css/app.css */"./resources/css/app.css");
 
 
 /***/ })

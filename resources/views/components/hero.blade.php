@@ -1,4 +1,7 @@
-<div class=" relative">
+<div class="relative">
+    {{-- Gray bar --}}
+    <div class="absolute bottom-0 inset-x-0 h-64 bg-purple-700"></div>
+
     <div class="container mx-auto px-6 lg:px-0 py-4 text-center">
         <h1
             class="mb-4 text-5xl lg:text-6xl font-extrabold text-transparent  bg-clip-text bg-gradient-to-r  from-indigo-400 to-purple-400">

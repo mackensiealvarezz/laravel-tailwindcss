@@ -13,11 +13,11 @@
         {{-- left circle --}}
 
         <div class=" absolute top-0 left-0 transform translate-x-4 translate-y-4">
-           <x-circles />
+            <x-circles />
         </div>
         {{-- right ciycl --}}
         <div class="hidden lg:block absolute top-0 right-0 transform -translate-x-64 translate-y-64">
-          <x-circles />
+            <x-circles />
         </div>
         <!-- ============================-->
         <!-- Header ============================-->
@@ -27,10 +27,26 @@
         <!-- Hero section ============================-->
         <!-- ============================-->
         <x-hero />
-         <!-- ============================-->
+        <!-- ============================-->
         <!-- overview section ============================-->
         <!-- ============================-->
         <x-overview />
+        <!-- ============================-->
+        <!-- about section ============================-->
+        <!-- ============================-->
+        <x-about />
+        <!-- ============================-->
+        <!-- what you will learn section ============================-->
+        <!-- ============================-->
+        <x-learn />
+        <!-- ============================-->
+        <!-- build section ============================-->
+        <!-- ============================-->
+        <x-build />
+        <!-- ============================-->
+        <!-- pricing section ============================-->
+        <!-- ============================-->
+        <x-pricing />
 
     </div>
 
@@ -46,14 +62,14 @@
 
 
     @if (getenv('APP_ENV') === 'local')
-        <script id="__bs_script__">
-            //<![CDATA[
+    <script id="__bs_script__">
+        //<![CDATA[
             document.write(
                 "<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.6'><\/script>"
                 .replace("HOST", location.hostname));
             //]]>
 
-        </script>
+    </script>
     @endif
 </body>
 
