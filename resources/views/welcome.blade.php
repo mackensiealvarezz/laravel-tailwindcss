@@ -16,7 +16,7 @@
             <x-circles />
         </div>
         {{-- right ciycl --}}
-        <div class="hidden lg:block absolute top-0 right-0 transform -translate-x-64 translate-y-64">
+        <div class="absolute hidden lg:block overflow-hidden  top-0 right-0 transform -translate-x-64 translate-y-64">
             <x-circles />
         </div>
         <!-- ============================-->
@@ -47,6 +47,14 @@
         <!-- pricing section ============================-->
         <!-- ============================-->
         <x-pricing />
+        <!-- ============================-->
+        <!-- faq section ============================-->
+        <!-- ============================-->
+        <x-faq />
+        <!-- ============================-->
+        <!-- footer section ============================-->
+        <!-- ============================-->
+        <x-footer />
 
     </div>
 
